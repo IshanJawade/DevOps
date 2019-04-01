@@ -1,0 +1,28 @@
+creat a file and add it:
+        nano hello.java
+        git init 	{To initialise reposiretry to the folder}
+        git log		{To view the log how many commits are done}
+        git add hello.java 	{Add the file to reposiretry}
+        git config --global user.email "ishankjawade@gmail.com"
+        git config --global user.name "IshanJawade"
+        git commit -m "first message" 		{for commit the changes}
+        git status		{to view git status}
+
+Modify the file and Commit it to repo:
+        nano hello.java 
+        git status 
+        git log
+        git add hello.java 
+        git commit -m "Second message"
+        
+Add this Local repo on Remote Repo:
+	git remote add origin https://github.com/IshanJawade/DevOps.git
+	git push -u origin master 
+	
+do changes in file online 
+
+for pull those changes on local reposiretry 
+	git fetch
+	git log 
+	git pull origin master
+	
