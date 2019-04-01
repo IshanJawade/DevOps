@@ -7,5 +7,6 @@ public class hello{
 		System.out.println("Fifth clone");
 		System.out.println("Sixth clone");
 		System.out.println("Ssup");
+		numlock bro numloc ;
         }
 }
