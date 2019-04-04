@@ -1,0 +1,13 @@
+Step 1: On the host machine type the command
+	ssh-keygen -t ed25519 -C "email@example.com"
+	This command creates a private key. The key is given on the terminal itself, in front of SHA256.
+
+Step 2: Send this key to the client
+
+Step 3: On the client machine create the file "authorized_file" in the ".ssh/" folder. Copy the key into this file and save it.
+
+Step 4: From the host machine, type the following command:
+	ssh pratik@192.168.43.47
+	"ssh user_name_of_client@ip_address_of_the_client"
+
+Step 5: Now the host has access to the client's machine.

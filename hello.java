@@ -6,8 +6,15 @@ public class hello{
 		System.out.println("Fourth Clone");
 		System.out.println("Fifth clone");
 		System.out.println("Sixth clone");
+<<<<<<< HEAD
 		System.out.println("No Ssup");
         	System.out.println("No Ssup");
 
 	}
+=======
+		System.out.println("Ssup");
+		numlock bro numloc ;
+		System.out.println("Bhava");
+        }
+>>>>>>> ac1628779bb7d60c58b03e5bd70c255c3ca20e62
 }
